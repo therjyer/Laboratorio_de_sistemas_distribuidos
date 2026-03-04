@@ -13,7 +13,7 @@ GtkWidget *text_view_code;
 GtkWidget *text_view_errors;
 GtkWidget *text_view_output;
 
-const char* SERVER_IP = "127.0.0.1";
+const char* SERVER_IP = "10.16.0.71";
 const int SERVER_PORT = 51482;
 
 static void on_run_clicked(GtkWidget *widget, gpointer data) {
