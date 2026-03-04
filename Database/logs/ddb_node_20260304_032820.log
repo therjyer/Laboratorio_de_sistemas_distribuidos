@@ -1,0 +1,99 @@
+2026-03-04 03:28:20,455 | INFO     | [utils_config.py:221] | Peer adicionado: 127.0.0.1:5001 (ID: 5001)
+2026-03-04 03:28:20,455 | INFO     | [utils_config.py:221] | Peer adicionado: 127.0.0.1:5002 (ID: 5002)
+2026-03-04 03:28:20,456 | INFO     | [utils_config.py:221] | Peer adicionado: 127.0.0.1:5003 (ID: 5003)
+2026-03-04 03:28:20,456 | INFO     | [app_gui.py:171] | Interface iniciada. Nó configurado para porta 51802
+2026-03-04 03:28:20,488 | INFO     | [database_engine.py:41] | Pool de conexões MySQL criado com sucesso.
+2026-03-04 03:28:20,489 | INFO     | [database_engine.py:65] | Banco de dados 'ddb_test' garantido no XAMPP.
+2026-03-04 03:28:20,525 | INFO     | [network_core.py:108] | Servidor de rede iniciado em 127.0.0.1:51802
+2026-03-04 03:28:20,568 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:20,568 | INFO     | [distributed_node.py:59] | Nó iniciado com sucesso. Estado: FOLLOWER
+2026-03-04 03:28:20,577 | INFO     | [distributed_node.py:173] | Iniciando eleição. Meu ID: 4803
+2026-03-04 03:28:22,598 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:22,598 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:22,599 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:22,613 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:24,663 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:26,729 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:26,729 | INFO     | [distributed_node.py:202] | Fui eleito o novo COORDENADOR da rede DDB!
+2026-03-04 03:28:26,734 | DEBUG    | [network_core.py:214] | [TX] Broadcast de COORDINATOR_ANNOUNCE para 3 nós.
+2026-03-04 03:28:27,606 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:28,775 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:28,776 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:28,777 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:29,645 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:29,645 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:29,645 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:32,013 | INFO     | [distributed_node.py:241] | Nova requisição de Query submetida: SELECT * FROM ddb_users;...
+2026-03-04 03:28:32,015 | INFO     | [distributed_node.py:275] | [LOAD BALANCE] Executando LEITURA localmente.
+2026-03-04 03:28:32,024 | INFO     | [database_engine.py:95] | [DB READ] Query executada: SELECT * FROM ddb_users;
+2026-03-04 03:28:34,656 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:36,705 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:36,706 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:36,720 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:41,723 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:43,767 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:43,767 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:43,768 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:48,787 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:50,839 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:28:50,839 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:50,839 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:55,869 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:28:57,913 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:28:57,914 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:28:57,914 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:02,932 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:04,963 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:04,964 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:04,964 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:09,980 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:12,027 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:12,027 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:12,043 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:17,045 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:19,097 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:19,098 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:19,098 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:24,126 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:26,182 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:26,182 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:26,182 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:31,204 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:33,253 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:33,253 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:33,253 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:38,280 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:40,322 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:40,322 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:40,322 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:45,345 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:47,380 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:47,380 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:47,381 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:49,485 | INFO     | [distributed_node.py:241] | Nova requisição de Query submetida: INSERT INTO ddb_users (nome, email, idade) VALUES ...
+2026-03-04 03:29:49,487 | INFO     | [distributed_node.py:298] | [2PC] Iniciando fase 1 para escrita: TxID 74e59b7a-78ca-497f-8c4b-6614c423db3a
+2026-03-04 03:29:51,520 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:52,396 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:29:53,559 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:54,441 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:54,441 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:29:54,441 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:29:55,606 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:29:55,607 | INFO     | [database_engine.py:134] | [2PC PREPARE] Validando transação 74e59b7a-78ca-497f-8c4b-6614c423db3a: INSERT INTO ddb_users (nome, email, idade) VALUES ('João Silva', 'joao@email.com', 25);
+2026-03-04 03:29:55,622 | WARNING  | [distributed_node.py:325] | [2PC] Abortando! Apenas 1/4 prontos.
+2026-03-04 03:29:59,455 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:30:01,502 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:30:01,502 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:30:01,502 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:30:04,589 | INFO     | [distributed_node.py:241] | Nova requisição de Query submetida: INSERT INTO ddb_users (nome, email, idade) VALUES ...
+2026-03-04 03:30:04,590 | INFO     | [distributed_node.py:298] | [2PC] Iniciando fase 1 para escrita: TxID ce15c25c-fbe1-4a65-acfc-0dd72aa73b6b
+2026-03-04 03:30:06,515 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
+2026-03-04 03:30:06,652 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:30:08,556 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:30:08,556 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:30:08,557 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5001 (Nó offline?)
+2026-03-04 03:30:08,710 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5002 (Nó offline?)
+2026-03-04 03:30:10,752 | WARNING  | [network_core.py:201] | Conexão recusada por 127.0.0.1:5003 (Nó offline?)
+2026-03-04 03:30:10,753 | INFO     | [database_engine.py:134] | [2PC PREPARE] Validando transação ce15c25c-fbe1-4a65-acfc-0dd72aa73b6b: INSERT INTO ddb_users (nome, email, idade) VALUES ('João Silva', 'joao@email.com', 25);
+2026-03-04 03:30:10,765 | WARNING  | [distributed_node.py:325] | [2PC] Abortando! Apenas 1/4 prontos.
+2026-03-04 03:30:13,566 | DEBUG    | [network_core.py:214] | [TX] Broadcast de HEARTBEAT para 3 nós.
